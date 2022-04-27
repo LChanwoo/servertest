@@ -8,6 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HelloController {
 @RequestMapping("/helloboot")
 public ModelAndView hello() {
+	System.out.println("hello");
 	ModelAndView mv= new ModelAndView();
 	mv.addObject("model", "헬로우부트프로젝트");
 	mv.setViewName("hello");
