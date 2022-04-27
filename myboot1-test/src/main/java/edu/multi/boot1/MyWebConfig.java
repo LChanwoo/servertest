@@ -8,14 +8,14 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class MyWebConfig implements WebMvcConfigurer {
 
-	@Override
-	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		registry
-		.addResourceHandler("/upload/**")
-		.addResourceLocations("file:///c:/upload/");
-		
-		
-	}
+//	@Override
+//	public void addResourceHandlers(ResourceHandlerRegistry registry) {
+//		registry
+//		.addResourceHandler("/upload/**")
+//		.addResourceLocations("file:///upload/");
+//		
+//		
+//	}
 	
 //1024byte -> 1kb 
 //	1024kb -> 1mb
